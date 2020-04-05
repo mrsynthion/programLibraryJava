@@ -10,9 +10,9 @@ public class App {
     /**
      * function main creates 3 objects of class 'library' which are lib1, lib2, lib3
      * then it creates
-     * @param oper and to this param we ascribe value by using method setVar
+     * @param oper and to this param we assign value by using method setVar
      * then we start loop do while which contains main menu of our app, here we are able to choose
-     * one of object 'library' created earlier
+     * one of 'library' objects created earlier
      */
     public static void main(String[] args) {
         Library lib1 = new Library();
@@ -37,9 +37,9 @@ public class App {
     }
 
     /**
-     *  method addBook uses method setVar to initialize all of variables in constructor of class 'book'
-     *  and then create the object
-     * @param library we initialize that earlier so we are adding object 'book' to right object of class 'library'
+     *  method addBook uses method setVar to initialize all of variables in constructor of 'book' class
+     *  and then creates the object
+     * @param library we initialize that earlier so we are adding 'book' object to right object of class 'library'
      * and next we induce function addBook from class 'library' to add created object to hashmap
      */
     public static void addBook(Library library) {
@@ -56,9 +56,9 @@ public class App {
 
     /**
      * method removeBook extends method deleteBook from class 'library'
-     * thanks to that user is able to relate to right object of class 'book' in
+     * cause of that user is able to relate to right object of class 'book' in
      * @param library that user is located
-     * uses setVar to initialize 'id' of object 'book' that we want relate to
+     * uses setVar to initialize 'id' of 'book' object that we want relate to
      */
     public static void removeBook(Library library){
         String id = setVar("id");
@@ -66,14 +66,14 @@ public class App {
     }
 
     /**
-     * methos returnBooks extends returnBooks from class 'library' relate to
+     * methos returnBooks extends returnBooks from class 'library' relates to
      * @param library which is initialized by user earlier
      */
     public static void returnBooks(Library library){
         library.returnBooks();
     }
     /**
-     * returnAllBooks extends method returnAllBooks from class 'library', and relate to
+     * returnAllBooks extends method returnAllBooks from 'library' class , and relates to
      * @param library so program knows which object lib1, lib2 or lib3 we want to return then uses
      * @return and returns it as Collection
      */
@@ -82,7 +82,7 @@ public class App {
     }
 
     /**
-     * method editBook uses method setVar which user initialize 'id' of object 'book' in
+     * method editBook uses method setVar which user initialize 'id' of 'book' object in
      * @param library that he is located now to relate to object that he want to
      * edit parameters
      */
@@ -99,7 +99,7 @@ public class App {
 
     /**
      * method setVar takes variable value and prints
-     * @param value ,thanks to that it can we used many times to initialize all values of variables
+     * @param value ,cause of that it can be used many times to initialize all values of variables
      * for instance in constructors of objects, then using
      * @return it returns variable val as string
      */
@@ -142,7 +142,7 @@ public class App {
     }
 
     /**
-     * method returnMenuLib is simple method that prints options of menu in being in object 'library'
+     * method returnMenuLib is simple method that prints options of menu when being in 'library' object
      */
     public static void returnMenuLib() {
         System.out.println("Co chcesz zrobić?" + '\n' + "Dostępne metody to: addBook, removeBook, " +
@@ -152,7 +152,7 @@ public class App {
     /**
      * method libraryCopy takes
      * @param lib and creates file that name is initialized by user by method setVar()
-     * and then saves all of objects 'book' and their values to that file
+     * and then saves all of 'book' objects and their values to that file
      */
     public static void libraryCopy(Library lib){
         String x = setVar(" nazwę pliku");

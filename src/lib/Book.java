@@ -1,13 +1,13 @@
 package lib;
 
 /**
- * creating class 'book' and initialize all of her variables
- * @param id 'book' id
- * @param bookName 'book' title
- * @param author 'book' author
- * @param publisher 'book' publisher
- * @param year year of publishing 'book'
- * @param quantityOfPages number of pages 'book' has
+ * creating class 'book' and initialize all of its variables
+ * @param id - 'book' id
+ * @param bookName - 'book' title
+ * @param author - 'book' author
+ * @param publisher - 'book' publisher
+ * @param year - year of publishing 'book'
+ * @param quantityOfPages - number of pages 'book' has
  * then creating constructor and getters
  */
 public class Book {
@@ -51,8 +51,8 @@ public class Book {
         return quantityOfPages;
     }
 /**
-* using method toString() to convert object 'book' to string that we are able
-* to print them
+* using method toString() to convert 'book' object to string that we are able
+* to print it
 **/
     @Override
     public String toString() {
